@@ -30,6 +30,17 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+    	    <repository>
+	      <id>nexus</id>
+	      <name>Sonar-Test-Release</name>
+	      <url>http://54.152.205.241:8081/repository/Sonar-Test-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Sonar-Test-Snapshot</name>
+	      <url>http://54.152.205.241:8081/repository/Sonar-Test-Snapshot/</url>
+	    </snapshotRepository>
   </distributionManagement>
 
   <build>
